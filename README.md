@@ -1,14 +1,14 @@
 (Project Name)
-
 Phase 1 Project
-Date,
 
+Date:
 2024/04/12
-By
 
+By:
 Stephen Owino
-Description
 
+
+Description:
 It's a code is about an online store application the user logins in and is able to make an order of items listed according to their prices
 
 You use git clone to be able to download the documents in the GitHub
