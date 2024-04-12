@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid: column 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    .lobster-regular {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+
+html{
+   font-size: 62.5%;
+   scroll-behavior: smooth; 
+}
+
+
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: #007bff;
+
+}
+
+.product-list {
+    display: grid;
+    grid: template columns 5%;
+    gap: 100px;
+    height: min-content;
+}
+
+.product-item {
+    border: 5px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+
+    
+}
+
+.product-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.product-item p {
+    margin: 2;
+    font-size: medium;
+    color: #007bff;
+}
+
+.product-item button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.product-item button:hover {
+    background-color: #0056b3;
+}
+
+.form{
+    color: #007bff;
+    margin:5px;
+    padding: auto;
+    border: #cccccc;
+    background-color: azure;
+    box-sizing: border-box;
+    
+}
+.product-list{
+   width: 50%; 
+   height: 50%;
+   display:col-sm-10 -moz-grid-line;
+   justify-content:flex-start ;
+   align-items:right;
+
+   grid: template columns 5%;
+   gap: 100px;
+   height:min-content;
+}
+.nav-items{
+   width: 60%; 
+   height: 4rem;
+   border-radius:2rem ;
+   background-color: black;
+}
